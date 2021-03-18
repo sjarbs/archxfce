@@ -1,0 +1,11 @@
+.config/Code
+.config/dconf
+.config/falkon
+.config/pulse
+.config/transmission
+
+# Emacs
+.config/emacs/auto-save-list
+.config/emacs/elpa
+.config/emacs/session.*
+.config/emacs/config.el

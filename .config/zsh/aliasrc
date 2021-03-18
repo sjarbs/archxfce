@@ -1,0 +1,36 @@
+#!/bin/sh
+
+# TODO
+# alias touch-package-json= 'echo '{ "private": true }' > package.json'
+# alias yay-ls='echo "Not Implemented Yet"'
+
+alias ls='exa --all --sort=type --icons'
+alias server='python -m http.server 8000'
+alias ali='micro ~/.config/zsh/aliasrc'
+alias note='micro ~/.cache/note'
+
+# Verbosity and better default settings.
+alias \
+  cp="cp -iv" \
+  mv="mv -iv" \
+  rm="rm -v" \
+  md="mkdir -pv"
+  df='df -h' \
+  free='free -m' \
+
+# Colorize commands when possible.
+alias \
+  grep="grep --color=auto" \
+  diff="diff --color=auto" \
+
+# Redshift
+alias \
+  r6='redshift -PO 6500' \
+  r5='redshift -PO 5500' \
+  r4='redshift -PO 4500' \
+  r3='redshift -PO 3500' \
+  r2='redshift -PO 2500' \
+  r1='redshift -PO 1500' \
+
+# Instaloader
+alias stories='instaloader --login user --no-posts --no-profile-pic --no-metadata-json --stories'
