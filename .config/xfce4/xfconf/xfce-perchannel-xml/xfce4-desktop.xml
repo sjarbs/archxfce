@@ -49,12 +49,14 @@
     <property name="style" type="int" value="2"/>
     <property name="file-icons" type="empty">
       <property name="show-removable" type="bool" value="false"/>
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-home" type="bool" value="false"/>
     </property>
     <property name="icon-size" type="uint" value="42"/>
     <property name="tooltip-size" type="double" value="96.000000"/>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="619"/>
-    <property name="window-height" type="int" value="524"/>
+    <property name="window-width" type="int" value="782"/>
+    <property name="window-height" type="int" value="610"/>
   </property>
 </channel>

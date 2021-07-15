@@ -32,4 +32,6 @@ MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
 FontName=JetBrains Mono NL 16
 CommandLoginShell=TRUE
+TitleInitial=
+TitleMode=TERMINAL_TITLE_REPLACE
 

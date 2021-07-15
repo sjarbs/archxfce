@@ -55,6 +55,8 @@
       <property name="&lt;Primary&gt;&lt;Alt&gt;k" type="string" value="xkill"/>
       <property name="&lt;Super&gt;period" type="string" value="rofi -show emoji -modi emoji"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal --drop-down"/>
+      <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
+      <property name="Tools" type="string" value="xfce4-terminal --drop-down"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
