@@ -1,5 +1,4 @@
 # https://gist.github.com/viliampucik/8713b09ff7e4d984b29bfcd7804dc1f4
-
 # Store interactive Python shell history in ~/.cache/python_history
 # instead of ~/.python_history.
 #
@@ -7,17 +6,21 @@
 # and export its path using PYTHONSTARTUP environment variable:
 #
 # export PYTHONSTARTUP="${XDG_CONFIG_HOME:-$HOME/.config}/pythonstartup.py"
-
 import atexit
 import os
 import readline
 
-histfile = os.path.join(os.getenv("XDG_CACHE_HOME", os.path.expanduser("~/.cache")), "python_history")
+histfile = os.path.join(os.getenv("XDG_CACHE_HOME"), "python_history")
 try:
     readline.read_history_file(histfile)
-    # default history len is -1 (infinite), which may grow unruly
-    readline.set_history_length(1000)
+    h_len = readline.get_current_history_length()
 except FileNotFoundError:
-    pass
+    open(histfile, 'wb').close()
+    h_len = 0
 
-atexit.register(readline.write_history_file, histfile)
+def save(prev_h_len, histfile):
+    new_h_len = readline.get_current_history_length()
+    readline.set_history_length(1000)
+    readline.append_history_file(new_h_len - prev_h_len, histfile)
+
+atexit.register(save, h_len, histfile)
