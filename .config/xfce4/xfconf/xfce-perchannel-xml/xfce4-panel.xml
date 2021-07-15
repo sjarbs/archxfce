@@ -101,6 +101,7 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="bluetooth enabled"/>
         <value type="string" value="msm notifier"/>
         <value type="string" value="thunar"/>
         <value type="string" value="drop-down terminal"/>

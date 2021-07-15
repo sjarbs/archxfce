@@ -5,6 +5,7 @@
 > Do it before Before Dotfiles!
 ```sh
 yay -S gnupg
+# To prevent ownership issues
 mkdir -p ~/.local/share/gnupg # $GNUPGHOME
 gpg --import $BACKUP/private.asc
 gpg --edit-key <KEY_ID>
@@ -61,6 +62,7 @@ yay -S nicotine+
 yay -S transmission-gtk
 yay -S discord
 yay -S megasync
+yay -S freetube-bin
 ```
 
 ## Runtimes
@@ -75,3 +77,7 @@ asdf install ruby
 
 # TODO: Python Poetry
 ```
+
+# Other
+- Passwordless sudo
+- Hardware Clock is Local (Because Windows)

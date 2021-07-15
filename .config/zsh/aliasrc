@@ -1,16 +1,12 @@
 #!/bin/sh
 
-# TODO
-# alias touch-package-json= 'echo '{ "private": true }' > package.json'
-# alias yay-ls='echo "Not Implemented Yet"'
-
-alias ls='exa --all --sort=type --icons'
-alias server='python -m http.server 8000'
-alias ali='micro ~/.config/zsh/aliasrc'
-alias note='micro ~/.cache/note'
+# Dotfiles/OS
+alias yay-ls='comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base -g base-devel | sort | uniq) | less'
+alias aliases='micro ~/.config/zsh/aliasrc'
 
 # Verbosity and better default settings.
 alias \
+  ls='exa --all --sort=type --icons' \
   cp="cp -iv" \
   mv="mv -iv" \
   rm="rm -v" \
@@ -33,4 +29,12 @@ alias \
   r1='redshift -PO 1500' \
 
 # Instaloader
-alias stories='instaloader --login user --no-posts --no-profile-pic --no-metadata-json --stories'
+alias stories='instaloader --login julito.xyz --no-posts --no-profile-pic --no-metadata-json --stories'
+
+# Dev
+alias n=npm
+alias touch-package-json='echo "{ \"private\": true }" > package.json'
+alias server='python -m http.server 8000'
+
+# Misc
+alias note='micro ~/.cache/note'

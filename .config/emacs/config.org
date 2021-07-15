@@ -1,7 +1,3 @@
-* Programas
-** IRC
-** RSS
-** Gemini
 * Package Manager
 #+BEGIN_SRC emacs-lisp
   (setq package-archives '(("melpa" . "http://melpa.org/packages/")
@@ -13,17 +9,6 @@
    use-package-always-ensure t)
 #+END_SRC
 * Better Defaults
-** DONE [[https://wiki.archlinux.org/index.php/XDG_Base_Directory][XDG Base Directory]]
-#+BEGIN_SRC emacs-lisp
-  (defvar xdg-cache (getenv "XDG_CACHE_HOME")
-    "The XDG cache base directory.")
-
-  (defvar xdg-config (getenv "XDG_CONFIG_HOME")
-    "The XDG config base directory.")
-
-  (defvar xdg-data (getenv "XDG_DATA_HOME")
-    "The XDG data base directory.")
-#+END_SRC
 ** Auto-save && Backup files
 #+BEGIN_SRC emacs-lisp
   (use-package super-save
@@ -31,25 +16,16 @@
     (super-save-mode +1)
     :init
     (setq super-save-auto-save-when-idle t)
-    (setq auto-save-default nil))
+    (setq auto-save-default nil)
+    (setq make-backup-files nil))
+#+END_SRC
+** Save/Restore session
+#+BEGIN_SRC emacs-lisp
+(desktop-save-mode 1)
 #+END_SRC
 ** Frame title format
 #+BEGIN_SRC emacs-lisp
 (setq-default frame-title-format '("%b"))
-#+END_SRC
-** TODO Show railing Whitespace
-#+BEGIN_SRC emacs-lisp
-
-#+END_SRC
-* TODO Keybindings
-#+BEGIN_SRC emacs-lisp
-  (cua-mode t) ;; C-x: Cut; C-c: Copy; C-v: Paste
-  (global-set-key (kbd "C-s") 'save-buffer)
-  (global-set-key (kbd "C-S-s") 'save-some-buffers)
-  (global-set-key (kbd "C-a") 'mark-whole-buffer)
-  (use-package undo-fu
-    :bind (("C-z" . undo-fu-only-undo)
-           ("C-y" . undo-fu-only-redo)))
 #+END_SRC
 * Appearance
 ** Fonts
@@ -89,11 +65,11 @@
   (use-package neotree
     :bind ("C-b" . neotree-toggle)
     :init
-    (setq neo-theme (if (display-graphic-p) 'icons 'arrow)))
+    (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
     (setq neo-window-position 'right)
     (setq neo-window-fixed-size nil)
     (setq neo-show-hidden-files t)
-    (setq neo-click-changes-root t)
+    (setq neo-click-changes-root t))
 #+END_SRC
 ** Defaults
 #+BEGIN_SRC emacs-lisp
@@ -101,13 +77,17 @@
   (setq org-startup-indented t)
   (global-visual-line-mode t)
 #+END_SRC
-** Emojis
+* Keybindings
 #+BEGIN_SRC emacs-lisp
+  (cua-mode t) ;; C-x: Cut; C-c: Copy; C-v: Paste
+  (global-set-key (kbd "C-s") 'save-buffer)
+  (global-set-key (kbd "C-S-s") 'save-some-buffers)
+  (global-set-key (kbd "C-a") 'mark-whole-buffer)
+  (use-package undo-fu
+    :bind (("C-z" . undo-fu-only-undo)
+           ("C-y" . undo-fu-only-redo)))
 #+END_SRC
 * Org-mode
-** Org-mode
-#+BEGIN_SRC emacs-lisp
-#+END_SRC
 ** Packages
 #+BEGIN_SRC emacs-lisp
   (use-package rainbow-delimiters
@@ -116,12 +96,10 @@
   (use-package org-bullets
     :ensure t
     :hook (org-mode . org-bullets-mode))
+  (use-package ox-hugo
+    :ensure t            ;Auto-install the package from Melpa (optional)
+    :after ox)
 #+END_SRC
-** Capture
-*** Awesome
-**** Audiovisual
-**** Software
-**** Libraries
 ** Cross out done items.
 #+BEGIN_SRC emacs-lisp
 (defun my/modify-org-done-face ()
@@ -134,23 +112,3 @@
 (eval-after-load "org"
   (add-hook 'org-add-hook 'my/modify-org-done-face))
 #+END_SRC
-* TODOs
-** XDG
-** Autoreload config.org
-** Light/Dark Theme Toggler
-** Visible Whitespace
-* Resources
-- [[https://github.com/sjarbs/emacs][sjarbs/emacs]]
-- [[https://github.com/rememberYou/.emacs.d][rememberYou/.emacs.d]]
-- [[https://github.com/jwiegley/dot-emacs][jwiegley/dot-emacs]]
-- [[https://github.com/angrybacon/dotemacs][angrybacon/dotemacs]]
-- [[https://github.com/mrvdb/emacs-config][mrvdb/emacs-config]]
-- [[https://github.com/himmAllRight/dotfiles][himmAllRight/dotfiles]]
-- [[https://github.com/larstvei/dot-emacs][larstvei/dot-emacs]]
-- [[https://github.com/chenglou/emacs.d][chenglou/emacs.d]]
-- [[https://mstempl.netlify.app/post/beautify-org-mode/][mstempl/beautify-org-mode]]
-- [[https://elblogdelazaro.gitlab.io/2019-12-16-org-mode-mi-fichero-de-configuracion/][elblogdelazaro/org-mode-mi-fichero-de-configuracion]]
-- [[https://github.com/suvratapte/dot-emacs-dot-d][suvratapte/dot-emacs-dot-d]]
-- [[https://github.com/hlissner/doom-emacs][hlissner/doom-emacs]]
-- [[https://github.com/LeoUfimtsev/ldts/blob/master/.emacs.d/my/orgdotemacs.org][LeoUfimtsev/ldts]]
-- [[https://github.com/alphapapa/alpha-org][alphapapa/alpha-org]]
