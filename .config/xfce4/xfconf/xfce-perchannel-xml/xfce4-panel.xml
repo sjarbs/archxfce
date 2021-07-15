@@ -59,11 +59,16 @@
         <value type="int" value="60"/>
         <value type="int" value="35"/>
         <value type="int" value="56"/>
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="62"/>
         <value type="int" value="57"/>
         <value type="int" value="28"/>
         <value type="int" value="46"/>
         <value type="int" value="61"/>
-        <value type="int" value="62"/>
+        <value type="int" value="11"/>
         <value type="int" value="41"/>
         <value type="int" value="48"/>
         <value type="int" value="49"/>
@@ -305,6 +310,27 @@
       </property>
     </property>
     <property name="plugin-62" type="string" value="separator"/>
+    <property name="plugin-1" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16263439521.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16263440102.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16263440983.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16263441524.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="string" value="separator"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
