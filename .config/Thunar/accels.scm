@@ -1,8 +1,9 @@
-; thunar GtkAccelMap rc-file         -*- scheme -*-
+; Thunar GtkAccelMap rc-file         -*- scheme -*-
 ; this file is an automated accelerator map dump
 ;
 ; (gtk_accel_path "<Actions>/ThunarLauncher/delete-3" "<Shift>KP_Delete")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/cf24c0e73424864f161cb6caa40d3b9e" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/ff86a61a9a7099ae054d8847c1991167" "")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/delete" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/f4e85ae96a36647db027f1949452c7c7" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/invert-selection" "")
@@ -39,6 +40,7 @@
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/6c48f6b0e27a6f54d7db73a2d93fbec1" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/ae0ca64cd50e00055b6bf91d436cacec" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/zoom-out-alt" "<Primary>minus")
+; (gtk_accel_path "<Actions>/ThunarStandardView/configure-columns" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/select-by-pattern" "<Primary>s")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/988c948e23bb8e7dff5074dced586146" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/create-document" "")

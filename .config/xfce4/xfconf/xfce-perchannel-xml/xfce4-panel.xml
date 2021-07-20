@@ -45,11 +45,10 @@
         <value type="int" value="30"/>
         <value type="int" value="34"/>
         <value type="int" value="54"/>
-        <value type="int" value="26"/>
-        <value type="int" value="53"/>
-        <value type="int" value="50"/>
-        <value type="int" value="52"/>
-        <value type="int" value="43"/>
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
         <value type="int" value="55"/>
         <value type="int" value="51"/>
         <value type="int" value="23"/>
@@ -57,12 +56,12 @@
         <value type="int" value="58"/>
         <value type="int" value="45"/>
         <value type="int" value="60"/>
-        <value type="int" value="35"/>
         <value type="int" value="56"/>
-        <value type="int" value="1"/>
-        <value type="int" value="2"/>
-        <value type="int" value="8"/>
-        <value type="int" value="10"/>
+        <value type="int" value="26"/>
+        <value type="int" value="53"/>
+        <value type="int" value="50"/>
+        <value type="int" value="52"/>
+        <value type="int" value="43"/>
         <value type="int" value="62"/>
         <value type="int" value="57"/>
         <value type="int" value="28"/>
@@ -74,6 +73,7 @@
         <value type="int" value="49"/>
         <value type="int" value="44"/>
         <value type="int" value="24"/>
+        <value type="int" value="35"/>
       </property>
     </property>
     <property name="dark-mode" type="bool" value="true"/>
@@ -106,6 +106,7 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="megasync"/>
         <value type="string" value="bluetooth enabled"/>
         <value type="string" value="msm notifier"/>
         <value type="string" value="thunar"/>
@@ -140,7 +141,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="audacious;chromium.instance116695;chromium.instance126432;chromium.instance129411;chromium.instance130030;chromium.instance143647;chromium.instance1491;chromium.instance1509;chromium.instance1521;chromium.instance1608;chromium.instance1611;chromium.instance165682;chromium.instance1658;chromium.instance1674;chromium.instance169227;chromium.instance1712;chromium.instance173142;chromium.instance1819;chromium.instance1830;chromium.instance1837;chromium.instance185476;chromium.instance18748;chromium.instance194229;chromium.instance2035;chromium.instance208778;chromium.instance214477;chromium.instance2179;chromium.instance221734;chromium.instance235599;chromium.instance242690;chromium.instance2473;chromium.instance272615;chromium.instance2745;chromium.instance2787;chromium.instance284300;chromium.instance29122;chromium.instance295173;chromium.instance295374;chromium.instance300251;chromium.instance3028;chromium.instance303546;chromium.instance30495;chromium.instance3066;chromium.instance311585;chromium.instance3124;chromium.instance314238;chromium.instance314593;chromium.instance317818;chromium.instance4477;chromium.instance4504;chromium.instance47692;chromium.instance51243;chromium.instance5214;chromium.instance52265;chromium.instance53175;chromium.instance60064;chromium.instance7952;chromium.instance90647;chromium.instance91373;chromium.instance96247;firefox.instance116669;firefox.instance1204;firefox.instance126899;firefox.instance1533;firefox.instance1535;firefox.instance1564;firefox.instance1586;firefox.instance1638;firefox.instance1936;firefox.instance20248;firefox.instance225220;firefox.instance228362;firefox.instance239974;firefox.instance244691;firefox.instance257082;firefox.instance29330;firefox.instance32441;firefox.instance35226;firefox.instance356992;firefox.instance49266;firefox.instance90476;firefox.instance91822;Lollypop;tdesktop;vlc"/>
+      <property name="mpris-players" type="string" value="audacious;chromium.instance107980;chromium.instance116695;chromium.instance126432;chromium.instance129411;chromium.instance130030;chromium.instance143647;chromium.instance1491;chromium.instance1509;chromium.instance1521;chromium.instance1608;chromium.instance1611;chromium.instance16385;chromium.instance165682;chromium.instance1658;chromium.instance1674;chromium.instance169227;chromium.instance1712;chromium.instance173142;chromium.instance1819;chromium.instance1830;chromium.instance1837;chromium.instance185476;chromium.instance18748;chromium.instance194229;chromium.instance19727;chromium.instance2035;chromium.instance208778;chromium.instance214477;chromium.instance2179;chromium.instance221734;chromium.instance235599;chromium.instance242690;chromium.instance2473;chromium.instance272615;chromium.instance2745;chromium.instance2787;chromium.instance284300;chromium.instance29122;chromium.instance295173;chromium.instance295374;chromium.instance300251;chromium.instance3028;chromium.instance303546;chromium.instance30495;chromium.instance3066;chromium.instance311585;chromium.instance3124;chromium.instance314238;chromium.instance314593;chromium.instance317818;chromium.instance4477;chromium.instance4504;chromium.instance47692;chromium.instance49364;chromium.instance51243;chromium.instance5214;chromium.instance52265;chromium.instance53175;chromium.instance60064;chromium.instance7952;chromium.instance90647;chromium.instance91373;chromium.instance96247;firefox.instance116669;firefox.instance1204;firefox.instance126899;firefox.instance1533;firefox.instance1535;firefox.instance1564;firefox.instance1586;firefox.instance1638;firefox.instance1936;firefox.instance20248;firefox.instance225220;firefox.instance228362;firefox.instance239974;firefox.instance244691;firefox.instance257082;firefox.instance29330;firefox.instance32441;firefox.instance35226;firefox.instance356992;firefox.instance49266;firefox.instance90476;firefox.instance91822;Lollypop;tdesktop;vlc"/>
     </property>
     <property name="plugin-5" type="string" value="clock">
       <property name="digital-format" type="string" value="%a %d/%m %R"/>

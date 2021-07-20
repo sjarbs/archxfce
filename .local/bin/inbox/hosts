@@ -1,4 +1,0 @@
-#!/bin/sh
-HOSTS="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
-sudo wget -O /etc/hosts $HOSTS
-# Checkout https://github.com/feross/hostile
