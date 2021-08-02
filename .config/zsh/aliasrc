@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Dotfiles/OS
+alias i="yay --sync --needed --nodiffmenu --nocleanmenu --noconfirm"
 alias yay-ls='comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base -g base-devel | sort | uniq) | less'
 alias aliases='micro ~/.config/zsh/aliasrc'
 
@@ -35,6 +36,10 @@ alias stories='instaloader --login julito.xyz --no-posts --no-profile-pic --no-m
 alias n=npm
 alias touch-package-json='echo "{ \"private\": true }" > package.json'
 alias server='python -m http.server 8000'
+alias xtw='xcolor-tailwind'
 
 # Misc
 alias note='micro ~/.cache/note'
+alias xclip='xclip -sel clip'
+alias m='mortem 1992/07/07'
+alias ole='ole | less'
