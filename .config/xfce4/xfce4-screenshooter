@@ -1,5 +1,7 @@
 app=gthumb
 last_user=
 screenshot_dir=file:///home/sj
-action=1
+action=4
+last_extension=png
+enable_imgur_upload=true
 

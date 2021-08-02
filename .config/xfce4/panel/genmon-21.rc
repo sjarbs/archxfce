@@ -1,0 +1,6 @@
+Command=year-progress
+UseLabel=1
+Text=Y:
+UpdatePeriod=86400000
+Font=Noto Sans 14
+

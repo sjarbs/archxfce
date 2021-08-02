@@ -1,5 +1,5 @@
 favorites=
-recent=easytag.desktop,virtualbox.desktop,logseq.desktop,org.rnd2.cpupower_gui.desktop,telegramdesktop.desktop,brave-browser.desktop,megasync.desktop,firefox.desktop,czkawka-gui.desktop,thunar.desktop
+recent=manjaro-hello.desktop,xfce4-terminal.desktop,org.rnd2.cpupower_gui.desktop,firefox.desktop,thunar-bulk-rename.desktop,responsively.desktop,micro.desktop,gpick.desktop,visual-studio-code.desktop,postman.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false
@@ -21,8 +21,8 @@ position-commands-alternate=false
 position-categories-alternate=true
 stay-on-focus-out=false
 confirm-session-command=true
-menu-width=792
-menu-height=797
+menu-width=709
+menu-height=825
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true
