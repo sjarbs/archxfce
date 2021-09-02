@@ -1,6 +1,6 @@
 app=gthumb
 last_user=
-screenshot_dir=file:///home/sj
+screenshot_dir=file:/home/sj/Downloads
 action=4
 last_extension=png
 enable_imgur_upload=true

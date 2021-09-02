@@ -19,6 +19,8 @@
         <value type="int" value="39"/>
         <value type="int" value="21"/>
         <value type="int" value="40"/>
+        <value type="int" value="3"/>
+        <value type="int" value="11"/>
         <value type="int" value="13"/>
         <value type="int" value="27"/>
         <value type="int" value="5"/>
@@ -44,39 +46,27 @@
       <property name="disable-struts" type="bool" value="true"/>
       <property name="autohide-behavior" type="uint" value="1"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="47"/>
-        <value type="int" value="30"/>
-        <value type="int" value="34"/>
-        <value type="int" value="54"/>
         <value type="int" value="1"/>
         <value type="int" value="2"/>
         <value type="int" value="8"/>
         <value type="int" value="10"/>
         <value type="int" value="55"/>
-        <value type="int" value="23"/>
         <value type="int" value="59"/>
         <value type="int" value="58"/>
         <value type="int" value="45"/>
         <value type="int" value="60"/>
         <value type="int" value="51"/>
-        <value type="int" value="56"/>
         <value type="int" value="26"/>
         <value type="int" value="53"/>
-        <value type="int" value="50"/>
         <value type="int" value="52"/>
+        <value type="int" value="14"/>
         <value type="int" value="12"/>
         <value type="int" value="19"/>
         <value type="int" value="57"/>
         <value type="int" value="28"/>
         <value type="int" value="46"/>
         <value type="int" value="61"/>
-        <value type="int" value="11"/>
-        <value type="int" value="41"/>
-        <value type="int" value="48"/>
-        <value type="int" value="49"/>
-        <value type="int" value="44"/>
-        <value type="int" value="24"/>
-        <value type="int" value="35"/>
+        <value type="int" value="16"/>
       </property>
     </property>
     <property name="dark-mode" type="bool" value="true"/>
@@ -122,6 +112,9 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="obs"/>
+        <value type="string" value="strawberry"/>
+        <value type="string" value="Museeks1"/>
         <value type="string" value="KDE Screen Ruler"/>
         <value type="string" value="MEGAsync"/>
         <value type="string" value="TelegramDesktop"/>
@@ -140,8 +133,11 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance553340"/>
+      <property name="mpris-players" type="string" value="chromium.instance135737;chromium.instance1481;chromium.instance1569;chromium.instance1617;chromium.instance1652;chromium.instance173522;chromium.instance175170;chromium.instance1754;chromium.instance18206;chromium.instance182563;chromium.instance1863;chromium.instance1881;chromium.instance1934;chromium.instance209645;chromium.instance232698;chromium.instance2405;chromium.instance243744;chromium.instance2652;chromium.instance272558;chromium.instance278887;chromium.instance280910;chromium.instance337560;chromium.instance65071;chromium.instance83132;chromium.instance90161;chromium.instance98833;firefox.instance280472;firefox.instance3540;strawberry;vlc"/>
       <property name="blacklisted-players" type="string" value=""/>
+      <property name="enable-wnck" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="false"/>
+      <property name="enable-mpris" type="bool" value="false"/>
     </property>
     <property name="plugin-5" type="string" value="clock">
       <property name="digital-format" type="string" value="%a %d/%m %R"/>
@@ -187,16 +183,6 @@
       </property>
     </property>
     <property name="plugin-36" type="string" value="whiskermenu"/>
-    <property name="plugin-23" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16263262623.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-24" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16263262794.desktop"/>
-      </property>
-    </property>
     <property name="plugin-26" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16263262965.desktop"/>
@@ -207,31 +193,6 @@
         <value type="string" value="16263263146.desktop"/>
       </property>
     </property>
-    <property name="plugin-30" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16263263548.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-34" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632639210.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-35" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632640611.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-41" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632648512.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-44" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632652615.desktop"/>
-      </property>
-    </property>
     <property name="plugin-45" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16277818961.desktop"/>
@@ -240,26 +201,6 @@
     <property name="plugin-46" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="162632660017.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-47" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632664318.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-48" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632701119.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-49" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632702020.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-50" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632703221.desktop"/>
       </property>
     </property>
     <property name="plugin-51" type="string" value="launcher">
@@ -277,9 +218,7 @@
         <value type="string" value="162632706324.desktop"/>
       </property>
     </property>
-    <property name="plugin-54" type="string" value="separator"/>
     <property name="plugin-55" type="string" value="separator"/>
-    <property name="plugin-56" type="string" value="separator"/>
     <property name="plugin-57" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="162633449626.desktop"/>
@@ -325,7 +264,6 @@
         <value type="string" value="16263441524.desktop"/>
       </property>
     </property>
-    <property name="plugin-11" type="string" value="separator"/>
     <property name="plugin-12" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16273672681.desktop"/>
@@ -340,6 +278,20 @@
     <property name="plugin-13" type="string" value="genmon"/>
     <property name="plugin-15" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-16" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16279419552.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-3" type="string" value="genmon"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16305502533.desktop"/>
+      </property>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>

@@ -21,4 +21,7 @@ source /usr/share/zsh/share/antigen.zsh
 antigen apply
 
 source $ZDOTDIR/aliasrc
-source /opt/asdf-vm/asdf.sh
+
+# source /opt/asdf-vm/asdf.sh
+eval "$(fnm env)"
+# fnm completions --shell zsh

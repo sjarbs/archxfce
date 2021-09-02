@@ -41,5 +41,9 @@ alias xtw='xcolor-tailwind'
 # Misc
 alias note='micro ~/.cache/note'
 alias xclip='xclip -sel clip'
+
+# Node
 alias m='mortem 1992/07/07'
 alias ole='ole | less'
+alias node-cli-boilerplate='curl -fsSL https://github.com/sobrinojulian/node-cli-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1'
+alias boca='aquehorajuegaboca | less'

@@ -1,6 +1,6 @@
-Command=year-progress
+Command=age
 UseLabel=0
-Text=📅
+Text=👴🏻
 UpdatePeriod=3600000
 Font=Noto Sans 14
 
