@@ -1,5 +1,5 @@
 favorites=virtualbox.desktop,org.gnome.baobab.desktop,galculator.desktop,transmission-gtk.desktop,org.nicotine_plus.Nicotine.desktop,com.obsproject.Studio.desktop,audacity.desktop,gimp.desktop,org.kde.kdenlive.desktop
-recent=org.rnd2.cpupower_gui.desktop,org.kde.kruler.desktop,telegramdesktop.desktop,xfce-display-settings.desktop,firefox.desktop,galculator.desktop,io.github.seadve.Mousai.desktop,org.gnome.gThumb.desktop
+recent=org.rnd2.cpupower_gui.desktop,telegramdesktop.desktop,discord.desktop,gparted.desktop,firefox.desktop,org.kde.kruler.desktop,xfce-display-settings.desktop,galculator.desktop,io.github.seadve.Mousai.desktop,org.gnome.gThumb.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false
