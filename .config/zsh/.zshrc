@@ -11,6 +11,7 @@ source /usr/share/zsh/share/antigen.zsh
   antigen bundle asdf
   antigen bundle git
   antigen bundle npm
+  antigen bundle rvm
   antigen bundle command-not-found
   antigen bundle common-aliases
   antigen bundle zsh-users/zsh-syntax-highlighting
@@ -23,5 +24,7 @@ antigen apply
 source $ZDOTDIR/aliasrc
 
 # source /opt/asdf-vm/asdf.sh
+
 eval "$(fnm env)"
 # fnm completions --shell zsh
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

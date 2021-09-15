@@ -47,20 +47,16 @@
       <property name="autohide-behavior" type="uint" value="1"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
-        <value type="int" value="2"/>
-        <value type="int" value="8"/>
-        <value type="int" value="10"/>
-        <value type="int" value="55"/>
         <value type="int" value="59"/>
         <value type="int" value="58"/>
         <value type="int" value="45"/>
         <value type="int" value="60"/>
+        <value type="int" value="2"/>
         <value type="int" value="51"/>
         <value type="int" value="26"/>
         <value type="int" value="53"/>
-        <value type="int" value="52"/>
         <value type="int" value="14"/>
-        <value type="int" value="12"/>
+        <value type="int" value="8"/>
         <value type="int" value="19"/>
         <value type="int" value="57"/>
         <value type="int" value="28"/>
@@ -112,6 +108,7 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="hp-systray"/>
         <value type="string" value="obs"/>
         <value type="string" value="strawberry"/>
         <value type="string" value="Museeks1"/>
@@ -133,7 +130,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance135737;chromium.instance1481;chromium.instance1569;chromium.instance1617;chromium.instance1652;chromium.instance173522;chromium.instance175170;chromium.instance1754;chromium.instance18206;chromium.instance182563;chromium.instance1863;chromium.instance1881;chromium.instance1912;chromium.instance1934;chromium.instance209645;chromium.instance232698;chromium.instance23820;chromium.instance2405;chromium.instance243744;chromium.instance2652;chromium.instance272558;chromium.instance278887;chromium.instance280910;chromium.instance29768;chromium.instance337560;chromium.instance65071;chromium.instance83132;chromium.instance90161;chromium.instance98833;firefox.instance280472;firefox.instance3540;strawberry;vlc"/>
+      <property name="mpris-players" type="string" value="chromium.instance109939;chromium.instance113567;chromium.instance115373;chromium.instance130844;chromium.instance135737;chromium.instance1481;chromium.instance1569;chromium.instance1617;chromium.instance1652;chromium.instance173522;chromium.instance1745;chromium.instance175170;chromium.instance1754;chromium.instance18206;chromium.instance182563;chromium.instance1863;chromium.instance1881;chromium.instance1912;chromium.instance1934;chromium.instance209645;chromium.instance232698;chromium.instance23820;chromium.instance2405;chromium.instance243744;chromium.instance2652;chromium.instance272558;chromium.instance278887;chromium.instance280910;chromium.instance29768;chromium.instance31614;chromium.instance3170;chromium.instance337560;chromium.instance350306;chromium.instance45077;chromium.instance4691;chromium.instance65071;chromium.instance7927;chromium.instance83132;chromium.instance90161;chromium.instance98833;firefox.instance280472;firefox.instance3540;strawberry;vlc"/>
       <property name="blacklisted-players" type="string" value=""/>
       <property name="enable-wnck" type="bool" value="false"/>
       <property name="enable-multimedia-keys" type="bool" value="false"/>
@@ -208,17 +205,11 @@
         <value type="string" value="162632704222.desktop"/>
       </property>
     </property>
-    <property name="plugin-52" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="162632704823.desktop"/>
-      </property>
-    </property>
     <property name="plugin-53" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="162632706324.desktop"/>
       </property>
     </property>
-    <property name="plugin-55" type="string" value="separator"/>
     <property name="plugin-57" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="162633449626.desktop"/>
@@ -249,29 +240,10 @@
         <value type="string" value="16263439521.desktop"/>
       </property>
     </property>
-    <property name="plugin-2" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16263440102.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-8" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16263440983.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-10" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16263441524.desktop"/>
-      </property>
-    </property>
-    <property name="plugin-12" type="string" value="launcher">
-      <property name="items" type="array">
-        <value type="string" value="16273672681.desktop"/>
-      </property>
-    </property>
     <property name="plugin-18" type="string" value="dockbarx">
       <property name="orient" type="string" value="top"/>
       <property name="block-autohide" type="bool" value="false"/>
+      <property name="expand" type="bool" value="false"/>
     </property>
     <property name="plugin-19" type="string" value="separator"/>
     <property name="plugin-21" type="string" value="genmon"/>
@@ -291,6 +263,12 @@
     <property name="plugin-14" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16305502533.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="separator"/>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16311586241.desktop"/>
       </property>
     </property>
   </property>

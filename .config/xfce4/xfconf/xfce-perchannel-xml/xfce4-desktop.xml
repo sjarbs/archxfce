@@ -77,7 +77,7 @@
       <property name="show-filesystem" type="bool" value="false"/>
       <property name="show-home" type="bool" value="false"/>
     </property>
-    <property name="icon-size" type="uint" value="50"/>
+    <property name="icon-size" type="uint" value="38"/>
     <property name="tooltip-size" type="double" value="42.000000"/>
     <property name="primary" type="bool" value="false"/>
     <property name="use-custom-font-size" type="bool" value="true"/>
@@ -86,7 +86,10 @@
     <property name="show-tooltips" type="bool" value="false"/>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="782"/>
-    <property name="window-height" type="int" value="610"/>
+    <property name="window-width" type="int" value="797"/>
+    <property name="window-height" type="int" value="624"/>
+  </property>
+  <property name="desktop-menu" type="empty">
+    <property name="show" type="bool" value="true"/>
   </property>
 </channel>
