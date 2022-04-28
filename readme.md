@@ -4,10 +4,11 @@
 ## Download Everything
 ```sh
 # Pacman
+yay -Rsu midori mousepad
 yay -S stow antigen starship yay-bin flatpak
 yay -S lsd pass github-cli htop micro trash-cli
 yay -S noto-fonts noto-fonts-emoji-apple ttf-jetbrains-mono ttf-nerd-fonts-symbols
-
+yay -S 
 # Flatpak
 
 # Repos
@@ -41,3 +42,6 @@ gpg --edit-key <KEY_ID>
 find $GNUPGHOME -type f -exec chmod 600 {} \; # Set 600 for files
 find $GNUPGHOME -type d -exec chmod 700 {} \; # Set 700 for directories
 ```
+
+## Firefox
+- Enable compact mode
