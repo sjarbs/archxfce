@@ -18,7 +18,6 @@
     "**/.Xauthority": true,
     "**/.xsession-errors": true,
     "**/.xsession-errors.old": true,
-    "**/.zshrc.zwc": true,
-    "**/.": true,
+    "**/.zshrc.zwc": true
   }
 }
