@@ -1,5 +1,5 @@
-# archwsl
-> archwsl after install
+# arch linux
+> arch linux after install
 
 ## Download Everything
 ```sh
