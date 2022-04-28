@@ -1,5 +1,5 @@
 favorites=xfce4-terminal.desktop,firefox.desktop,thunar.desktop,visual-studio-code.desktop,micro.desktop,org.eclipse.Java.desktop,brave-anhmnecnhcoggkaemikcpdnmleknnmpc-Default.desktop,brave-gakplicejlpogogkmhcohnidacakppdg-Default.desktop,brave-ifpboanaelncmlfhjbnnloipmogocahb-Default.desktop,brave-kjbdgfilnfhdoflbpgamdcdgpehopbep-Default.desktop,brave-majiogicmcnmdhhlgmkahaleckhjbmlk-Default.desktop,brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop,brave-ejhkdoiecgkmdpomoahkdihbcldkgjci-Default.desktop
-recent=xfce-settings-manager.desktop,brave-browser.desktop,brave-ifpboanaelncmlfhjbnnloipmogocahb-Default.desktop,org.rnd2.cpupower_gui.desktop,brave-ejhkdoiecgkmdpomoahkdihbcldkgjci-Default.desktop,thunar.desktop,brave-kjbdgfilnfhdoflbpgamdcdgpehopbep-Default.desktop,brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop,brave-majiogicmcnmdhhlgmkahaleckhjbmlk-Default.desktop,brave-gakplicejlpogogkmhcohnidacakppdg-Default.desktop
+recent=micro.desktop,brave-ifpboanaelncmlfhjbnnloipmogocahb-Default.desktop,firefox.desktop,xfce4-terminal-emulator.desktop,htop.desktop,xfce-settings-manager.desktop,brave-browser.desktop,org.rnd2.cpupower_gui.desktop,brave-ejhkdoiecgkmdpomoahkdihbcldkgjci-Default.desktop,thunar.desktop
 button-icon=/usr/share/icons/whiskermenu-manjaro.svg
 button-single-row=false
 show-button-title=false

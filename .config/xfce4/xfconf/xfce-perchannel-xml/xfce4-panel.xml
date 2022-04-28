@@ -72,6 +72,8 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="thunar"/>
+        <value type="string" value="wi-fi network connection “telecentro-bbe0” active: telecentro-bbe0 (100%)"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="caffeine"/>
         <value type="string" value="alltray"/>
@@ -92,6 +94,7 @@
       <property name="grouping" type="uint" value="0"/>
       <property name="middle-click" type="uint" value="1"/>
       <property name="show-labels" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="4"/>
     </property>
     <property name="plugin-7" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
@@ -99,7 +102,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance3934;firefox.instance899;firefox.instance979"/>
+      <property name="mpris-players" type="string" value="firefox.instance3934;firefox.instance899;firefox.instance9495;firefox.instance979"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-5" type="string" value="clock"/>

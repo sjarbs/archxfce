@@ -1,20 +1,8 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/sj/var/Desktop/archxfce]
-row=2
-col=0
-
-[/home/sj/var/Desktop/archwsl]
-row=3
-col=0
-
-[/home/sj/var/Desktop/Desktop]
-row=5
-col=9
-
-[/home/sj/var/Desktop/Music]
-row=6
+[/home/sj/var/Desktop/garden]
+row=0
 col=10
 
 [/home/sj/var/Desktop/seguridadhigienetdf.com]
@@ -25,25 +13,9 @@ col=12
 row=1
 col=10
 
-[/home/sj/var/Desktop/_]
-row=0
-col=1
-
 [/home/sj/var/Desktop/indecisovampiro.com.ar]
 row=1
 col=11
-
-[/home/sj/var/Desktop/garden]
-row=0
-col=10
-
-[/home/sj/var/Desktop/C875]
-row=1
-col=0
-
-[/home/sj/var/Desktop/Documents]
-row=5
-col=10
 
 [/home/sj/var/Desktop/cv]
 row=0
@@ -53,17 +25,13 @@ col=11
 row=0
 col=13
 
-[/home/sj/var/Desktop/Downloads]
-row=5
-col=11
-
 [/home/sj/var/Desktop/eclipse]
 row=1
 col=9
 
-[/home/sj/var/Desktop/Pictures]
-row=6
-col=9
+[/home/sj/var/Desktop/rofi]
+row=1
+col=0
 
 [/home/sj/var/Desktop/123]
 row=0
@@ -72,10 +40,6 @@ col=12
 [/home/sj/var/Desktop/dotfiles]
 row=0
 col=9
-
-[/home/sj/var/Desktop/Videos]
-row=6
-col=11
 
 [Trash]
 row=6
