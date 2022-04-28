@@ -1,17 +1,15 @@
 {
   "files.exclude": {
-    // Won't Fix
     "**/.cache": true,
-    "**/.mozilla": true,        // Firefox
-    "**/.pki": true,            // Chromium
-    "**/.vscode-server": true,  // WSL only
-    "**/.ssh": true,
-    "**/.gnome": false,         // Discussed
-    // Fixeable?
     "**/.eclipse": true,        // Eclipse
+    "**/.gnome": false,         // Discussed
+    "**/.mozilla": true,        // Firefox
     "**/.p2": true,             // Eclipse
+    "**/.pki": true,            // Chromium
+    "**/.ssh": true,            // SSH
     "**/.swt": true,            // Eclipse
-    "**/.zoom": true,           // Eclipse
+    "**/.vscode-server": true,  // WSL only
+    "**/.zoom": true,           // Zoom
     // State
     "**/.dmrc": true,
     "**/.ICEauthority": true,

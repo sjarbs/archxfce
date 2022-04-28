@@ -4,7 +4,7 @@
 ## Download Everything
 ```sh
 # Pacman
-yay -S stow antigen yay-bin flatpak
+yay -S stow antigen starship yay-bin flatpak
 yay -S lsd pass github-cli htop micro trash-cli
 yay -S noto-fonts noto-fonts-emoji-apple ttf-jetbrains-mono ttf-nerd-fonts-symbols
 
