@@ -1,7 +1,24 @@
 {
   "files.exclude": {
-    "**/.vscode-server": true,
+    // Won't Fix
     "**/.cache": true,
+    "**/.mozilla": true,        // Firefox
+    "**/.pki": true,            // Chromium
+    "**/.vscode-server": true,  // WSL only
     "**/.ssh": true,
+    "**/.gnome": false,         // Discussed
+    // Fixeable?
+    "**/.eclipse": true,        // Eclipse
+    "**/.p2": true,             // Eclipse
+    "**/.swt": true,            // Eclipse
+    "**/.zoom": true,           // Eclipse
+    // State
+    "**/.dmrc": true,
+    "**/.ICEauthority": true,
+    "**/.Xauthority": true,
+    "**/.xsession-errors": true,
+    "**/.xsession-errors.old": true,
+    "**/.zshrc.zwc": true,
+    "**/.": true,
   }
 }
