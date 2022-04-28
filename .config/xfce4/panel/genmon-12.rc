@@ -1,0 +1,6 @@
+Command=lp
+UseLabel=1
+Text=M:
+UpdatePeriod=3600000
+Font=Noto Sans 10
+
