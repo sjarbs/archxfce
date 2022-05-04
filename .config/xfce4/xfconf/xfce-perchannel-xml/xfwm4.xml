@@ -19,7 +19,7 @@
     <property name="double_click_time" type="int" value="250"/>
     <property name="double_click_distance" type="int" value="5"/>
     <property name="double_click_action" type="string" value="maximize"/>
-    <property name="easy_click" type="string" value="Alt"/>
+    <property name="easy_click" type="string" value="None"/>
     <property name="focus_hint" type="bool" value="true"/>
     <property name="focus_new" type="bool" value="true"/>
     <property name="frame_opacity" type="int" value="100"/>
@@ -78,7 +78,7 @@
       <value type="string" value="Workspace 4"/>
     </property>
     <property name="tile_on_move" type="bool" value="true"/>
-    <property name="titleless_maximize" type="bool" value="false"/>
+    <property name="titleless_maximize" type="bool" value="true"/>
     <property name="cycle_preview" type="bool" value="true"/>
     <property name="cycle_tabwin_mode" type="int" value="0"/>
     <property name="sync_to_vblank" type="bool" value="true"/>

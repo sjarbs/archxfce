@@ -15,15 +15,10 @@
         <value type="int" value="21"/>
         <value type="int" value="22"/>
         <value type="int" value="11"/>
-        <value type="int" value="17"/>
-        <value type="int" value="14"/>
-        <value type="int" value="15"/>
-        <value type="int" value="12"/>
-        <value type="int" value="16"/>
         <value type="int" value="13"/>
+        <value type="int" value="12"/>
         <value type="int" value="19"/>
         <value type="int" value="5"/>
-        <value type="int" value="20"/>
         <value type="int" value="6"/>
         <value type="int" value="10"/>
         <value type="int" value="9"/>
@@ -72,6 +67,7 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="wi-fi network connection “telecentro-bbe0” active: telecentro-bbe0 (90%)"/>
         <value type="string" value="thunar"/>
         <value type="string" value="wi-fi network connection “telecentro-bbe0” active: telecentro-bbe0 (100%)"/>
         <value type="string" value="xfce4-power-manager"/>
@@ -83,6 +79,10 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-items" type="array">
+        <value type="string" value="join?action=join&amp;confno=88377659630&amp;confid=dXRpZD1VVElEX2I0NjA1ZDc2ZDMxNzQ2YjE4ZDU3OGM5ZDVhNzM3ODM4JnVzcz1qcEJiS2dhRkxnYzI2VEwwVmRmX3g1cllJcUx4N21NRFpCeUhMYlZKRGMtVUJwalRiVm9CbkduVjJjel9rU0FXYzAzTWZxTGt5OVhSZ0JsMThkSkZrTkdPeFR6aS5VY3lQalZIMURmYnNRbElSJnRpZD1hYjM5ZWQzN2FiZTU0YmNkYWYxMzYyNDY3Y2E5MWNiMQ%3D%3D&amp;browser=firefox"/>
+        <value type="string" value="join?action=join&amp;confno=88377659630&amp;confid=dXRpZD1VVElEX2JhY2NmYWVkNzgxYjRmNzhiOTM3MjBjMDhiZjNjMjIxJnVzcz1aVzh0a1lVbW5OUkZKN2lxR2ZsM0VyS1IydVZFaG83UXF0Z2xmNnZsQU9ycTZBVThFSXFZSmU1TFc4cDNjdnFCbTJ2WEZpSV9wdkMwUmEwcHhvRnUxR0dMcEV1RS5qZFRKaEVkaW8tRzdYT1ZqJnRpZD1hYjM5ZWQzN2FiZTU0YmNkYWYxMzYyNDY3Y2E5MWNiMQ%3D%3D&amp;browser=firefox"/>
+        <value type="string" value="zoom "/>
+        <value type="string" value="transmission"/>
         <value type="string" value="org.rnd2.cpupower_gui"/>
         <value type="string" value="join?action=join&amp;confno=87466683374&amp;confid=dXRpZD1VVElEX2MyYWM1NTFkNmMzNzQ3NGZiMTQyNTY5YjY0ZDRhYjBjJnVzcz1NUnlDTzV5SEVyaEVuakp5bVhmbjJ3cTFaNHZ3VUVJR25taWxJZ0s3bUVSSlhOMHJvbUdvMmlnM1p0a2JqNGdaLVJaSHJ1OGNpUjdaU0hKRGY4bG5TbUpRbnRuZC5rbDMwSXNWa1Q2R1FXS2J5JnRpZD1hYjM5ZWQzN2FiZTU0YmNkYWYxMzYyNDY3Y2E5MWNiMQ%3D%3D&amp;browser=firefox"/>
         <value type="string" value="caffeine"/>
@@ -102,7 +102,7 @@
     </property>
     <property name="plugin-9" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="firefox.instance3934;firefox.instance899;firefox.instance9495;firefox.instance979"/>
+      <property name="mpris-players" type="string" value="chromium.instance11897;chromium.instance1983;firefox.instance1231;firefox.instance1236;firefox.instance3934;firefox.instance50757;firefox.instance58599;firefox.instance84403;firefox.instance86527;firefox.instance899;firefox.instance92785;firefox.instance9495;firefox.instance979;firefox.instance9891"/>
     </property>
     <property name="plugin-8" type="string" value="whiskermenu"/>
     <property name="plugin-5" type="string" value="clock"/>
@@ -113,26 +113,18 @@
     <property name="plugin-10" type="string" value="power-manager-plugin"/>
     <property name="plugin-11" type="string" value="cpufreq"/>
     <property name="plugin-12" type="string" value="genmon"/>
-    <property name="plugin-13" type="string" value="genmon"/>
-    <property name="plugin-14" type="string" value="genmon"/>
-    <property name="plugin-15" type="string" value="separator">
+    <property name="plugin-19" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-16" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
-    <property name="plugin-17" type="string" value="separator">
-      <property name="expand" type="bool" value="false"/>
-      <property name="style" type="uint" value="1"/>
-    </property>
-    <property name="plugin-19" type="string" value="separator"/>
-    <property name="plugin-20" type="string" value="separator"/>
     <property name="plugin-18" type="string" value="xfce4-sensors-plugin"/>
     <property name="plugin-21" type="string" value="xfce4-sensors-plugin"/>
     <property name="plugin-22" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
     <property name="plugin-24" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
   </property>

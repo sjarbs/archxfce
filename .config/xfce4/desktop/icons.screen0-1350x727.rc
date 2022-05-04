@@ -1,51 +1,63 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[/home/sj/var/Desktop/garden]
-row=0
-col=10
+[/home/sj/var/Desktop/La mejor escena de Alfredo Casero en Vulnerables-hlDz8NEEjIo.mkv]
+row=3
+col=0
 
 [/home/sj/var/Desktop/seguridadhigienetdf.com]
-row=1
-col=12
+row=5
+col=13
 
 [/home/sj/var/Desktop/ort]
-row=1
+row=6
 col=10
 
 [/home/sj/var/Desktop/indecisovampiro.com.ar]
-row=1
-col=11
+row=5
+col=12
+
+[/home/sj/var/Desktop/garden]
+row=6
+col=7
 
 [/home/sj/var/Desktop/cv]
-row=0
-col=11
+row=6
+col=8
 
 [/home/sj/var/Desktop/julito.xyz]
-row=0
+row=6
+col=12
+
+[/home/sj/var/Desktop/Downloads]
+row=1
+col=13
+
+[/home/sj/var/Desktop/somosliana.com]
+row=6
 col=13
 
 [/home/sj/var/Desktop/eclipse]
-row=1
+row=6
+col=11
+
+[/home/sj/var/Desktop/123]
+row=6
 col=9
 
-[/home/sj/var/Desktop/rofi]
+[/home/sj/var/Desktop/dotfiles]
+row=6
+col=6
+
+[/home/sj/var/Desktop/inbox]
 row=1
 col=0
 
-[/home/sj/var/Desktop/123]
-row=0
-col=12
-
-[/home/sj/var/Desktop/dotfiles]
-row=0
-col=9
-
 [Trash]
-row=6
+row=2
 col=13
 
 [/home/sj]
 row=0
-col=0
+col=13
 
