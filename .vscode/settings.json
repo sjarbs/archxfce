@@ -1,21 +1,21 @@
 {
   "files.exclude": {
-    "**/.cache": true,
-    "**/.eclipse": true,        // Eclipse
-    "**/.gnome": false,         // Discussed
-    "**/.mozilla": true,        // Firefox
-    "**/.p2": true,             // Eclipse
-    "**/.pki": true,            // Chromium
-    "**/.ssh": true,            // SSH
-    "**/.swt": true,            // Eclipse
-    "**/.vscode-server": true,  // WSL only
-    "**/.zoom": true,           // Zoom
+    "**/.cache": false,
+    "**/.eclipse": false,       // Eclipse
+    "**/.gnome": false,         // PWAs (Brave)
+    "**/.mozilla": false,       // Firefox
+    "**/.p2": false,            // Eclipse
+    "**/.pki": false,           // Chromium
+    "**/.ssh": false,           // SSH
+    "**/.swt": false,           // Eclipse
+    "**/.vscode-server": false, // WSL only
+    "**/.zoom": false,          // Zoom
     // State
-    "**/.dmrc": true,
-    "**/.ICEauthority": true,
-    "**/.Xauthority": true,
-    "**/.xsession-errors": true,
-    "**/.xsession-errors.old": true,
-    "**/.zshrc.zwc": true
+    "**/.dmrc": false,
+    "**/.ICEauthority": false,
+    "**/.Xauthority": false,
+    "**/.xsession-errors": false,
+    "**/.xsession-errors.old": false,
+    "**/.zshrc.zwc": false
   }
 }
