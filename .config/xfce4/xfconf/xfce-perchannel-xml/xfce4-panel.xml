@@ -1,132 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
-  <property name="panels" type="uint" value="1">
-    <property name="panel-0" type="empty">
-      <property name="position" type="string" value="p=6;x=683;y=20"/>
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=2;x=1352;y=384"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="28"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="8"/>
-        <value type="int" value="3"/>
-        <value type="int" value="7"/>
-        <value type="int" value="18"/>
-        <value type="int" value="24"/>
-        <value type="int" value="21"/>
-        <value type="int" value="22"/>
-        <value type="int" value="11"/>
-        <value type="int" value="13"/>
-        <value type="int" value="12"/>
-        <value type="int" value="19"/>
-        <value type="int" value="5"/>
-        <value type="int" value="6"/>
-        <value type="int" value="10"/>
-        <value type="int" value="9"/>
         <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="6"/>
+        <value type="int" value="9"/>
+        <value type="int" value="5"/>
+        <value type="int" value="25"/>
+        <value type="int" value="21"/>
+        <value type="int" value="12"/>
         <value type="int" value="4"/>
-        <value type="int" value="1"/>
+        <value type="int" value="7"/>
       </property>
-      <property name="role" type="string" value="xfce4-panel-12965750720"/>
-      <property name="length-adjust" type="bool" value="true"/>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="size" type="uint" value="24"/>
-      <property name="mode" type="uint" value="0"/>
-      <property name="autohide-behavior" type="uint" value="0"/>
-      <property name="disable-struts" type="bool" value="false"/>
-      <property name="icon-size" type="uint" value="0"/>
+      <property name="mode" type="uint" value="2"/>
     </property>
-    <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-2" type="string" value="actions">
-      <property name="appearance" type="uint" value="0"/>
-      <property name="invert-orientation" type="bool" value="false"/>
-      <property name="items" type="array">
-        <value type="string" value="-logout-dialog"/>
-        <value type="string" value="-switch-user"/>
-        <value type="string" value="-separator"/>
-        <value type="string" value="+logout"/>
-        <value type="string" value="-lock-screen"/>
-        <value type="string" value="-hibernate"/>
-        <value type="string" value="-suspend"/>
-        <value type="string" value="-restart"/>
-        <value type="string" value="-shutdown"/>
-      </property>
-    </property>
-    <property name="plugin-6" type="string" value="systray">
-      <property name="names-visible" type="array">
-        <value type="string" value="pnmixer"/>
-        <value type="string" value="manjaro-settings-manager-daemon"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="orage"/>
-        <value type="string" value="pamac-tray"/>
-        <value type="string" value="blueman-applet"/>
-        <value type="string" value="clipman"/>
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="xnoise"/>
-      </property>
-      <property name="show-frame" type="bool" value="false"/>
-      <property name="known-legacy-items" type="array">
-        <value type="string" value="wi-fi network connection “telecentro-bbe0” active: telecentro-bbe0 (90%)"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="wi-fi network connection “telecentro-bbe0” active: telecentro-bbe0 (100%)"/>
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="caffeine"/>
-        <value type="string" value="alltray"/>
-        <value type="string" value="xfce terminal"/>
-        <value type="string" value="pamac-tray"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="clipman"/>
-      </property>
-      <property name="known-items" type="array">
-        <value type="string" value="join?action=join&amp;confno=88377659630&amp;confid=dXRpZD1VVElEX2I0NjA1ZDc2ZDMxNzQ2YjE4ZDU3OGM5ZDVhNzM3ODM4JnVzcz1qcEJiS2dhRkxnYzI2VEwwVmRmX3g1cllJcUx4N21NRFpCeUhMYlZKRGMtVUJwalRiVm9CbkduVjJjel9rU0FXYzAzTWZxTGt5OVhSZ0JsMThkSkZrTkdPeFR6aS5VY3lQalZIMURmYnNRbElSJnRpZD1hYjM5ZWQzN2FiZTU0YmNkYWYxMzYyNDY3Y2E5MWNiMQ%3D%3D&amp;browser=firefox"/>
-        <value type="string" value="join?action=join&amp;confno=88377659630&amp;confid=dXRpZD1VVElEX2JhY2NmYWVkNzgxYjRmNzhiOTM3MjBjMDhiZjNjMjIxJnVzcz1aVzh0a1lVbW5OUkZKN2lxR2ZsM0VyS1IydVZFaG83UXF0Z2xmNnZsQU9ycTZBVThFSXFZSmU1TFc4cDNjdnFCbTJ2WEZpSV9wdkMwUmEwcHhvRnUxR0dMcEV1RS5qZFRKaEVkaW8tRzdYT1ZqJnRpZD1hYjM5ZWQzN2FiZTU0YmNkYWYxMzYyNDY3Y2E5MWNiMQ%3D%3D&amp;browser=firefox"/>
-        <value type="string" value="zoom "/>
-        <value type="string" value="transmission"/>
-        <value type="string" value="org.rnd2.cpupower_gui"/>
-        <value type="string" value="join?action=join&amp;confno=87466683374&amp;confid=dXRpZD1VVElEX2MyYWM1NTFkNmMzNzQ3NGZiMTQyNTY5YjY0ZDRhYjBjJnVzcz1NUnlDTzV5SEVyaEVuakp5bVhmbjJ3cTFaNHZ3VUVJR25taWxJZ0s3bUVSSlhOMHJvbUdvMmlnM1p0a2JqNGdaLVJaSHJ1OGNpUjdaU0hKRGY4bG5TbUpRbnRuZC5rbDMwSXNWa1Q2R1FXS2J5JnRpZD1hYjM5ZWQzN2FiZTU0YmNkYWYxMzYyNDY3Y2E5MWNiMQ%3D%3D&amp;browser=firefox"/>
-        <value type="string" value="caffeine"/>
-        <value type="string" value="KDocker"/>
-        <value type="string" value="MSM Notifier"/>
-      </property>
-    </property>
-    <property name="plugin-3" type="string" value="tasklist">
+    <property name="plugin-2" type="string" value="tasklist">
       <property name="grouping" type="uint" value="0"/>
-      <property name="middle-click" type="uint" value="1"/>
-      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-labels" type="bool" value="false"/>
       <property name="sort-order" type="uint" value="4"/>
+      <property name="middle-click" type="uint" value="1"/>
     </property>
-    <property name="plugin-7" type="string" value="separator">
+    <property name="plugin-3" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-9" type="string" value="pulseaudio">
-      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance11897;chromium.instance1983;firefox.instance1231;firefox.instance1236;firefox.instance3934;firefox.instance50757;firefox.instance58599;firefox.instance84403;firefox.instance86527;firefox.instance899;firefox.instance92785;firefox.instance9495;firefox.instance979;firefox.instance9891"/>
-    </property>
-    <property name="plugin-8" type="string" value="whiskermenu"/>
-    <property name="plugin-5" type="string" value="clock"/>
-    <property name="plugin-1" type="string" value="showdesktop"/>
     <property name="plugin-4" type="string" value="pager">
-      <property name="rows" type="uint" value="2"/>
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
     </property>
-    <property name="plugin-10" type="string" value="power-manager-plugin"/>
-    <property name="plugin-11" type="string" value="cpufreq"/>
-    <property name="plugin-12" type="string" value="genmon"/>
-    <property name="plugin-19" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="redshiftgui.elf"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="xfce terminal"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="wi-fi network connection “movistarfibra-8e4a00” active: movistarfibra-8e4a00 (100%)"/>
+        <value type="string" value="wi-fi network connection “movistarfibra-8e4a00” active: movistarfibra-8e4a00 (92%)"/>
+        <value type="string" value="configuring wi-fi network connection “movistarfibra-8e4a00”…"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="wi-fi network connection “movistarfibra-8e4a00” active: movistarfibra-8e4a00 (95%)"/>
+        <value type="string" value="no network connection"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="Redshift Qt"/>
+        <value type="string" value="redshift"/>
+        <value type="string" value="org.rnd2.cpupower_gui"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="zoom"/>
+        <value type="string" value="KDocker"/>
+      </property>
     </property>
-    <property name="plugin-18" type="string" value="xfce4-sensors-plugin"/>
-    <property name="plugin-21" type="string" value="xfce4-sensors-plugin"/>
-    <property name="plugin-22" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+    <property name="plugin-9" type="string" value="power-manager-plugin"/>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="digital-format" type="string" value="&lt;small&gt;%H:%M%n%d/%m&lt;/small&gt;"/>
+      <property name="mode" type="uint" value="2"/>
     </property>
-    <property name="plugin-24" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
+    <property name="plugin-7" type="string" value="showdesktop"/>
+    <property name="plugin-5" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1013;chromium.instance1027;chromium.instance1062;chromium.instance17957;chromium.instance21929;chromium.instance3110;chromium.instance32806;chromium.instance33708;chromium.instance3708;chromium.instance42156;chromium.instance4818;chromium.instance5696;chromium.instance6184;chromium.instance63419;chromium.instance6414;chromium.instance655;chromium.instance72423;chromium.instance745;chromium.instance771;chromium.instance782;chromium.instance802;chromium.instance8382;chromium.instance872;chromium.instance902;chromium.instance91585;chromium.instance942;chromium.instance948;firefox.instance1645;firefox.instance17012;firefox.instance1865;firefox.instance3375;firefox.instance38048;firefox.instance48353;firefox.instance49580;firefox.instance52071;firefox.instance5981;firefox.instance6718;vlc"/>
     </property>
-    <property name="plugin-13" type="string" value="separator">
-      <property name="style" type="uint" value="0"/>
-    </property>
+    <property name="plugin-21" type="string" value="genmon"/>
+    <property name="plugin-25" type="string" value="notification-plugin"/>
+    <property name="plugin-8" type="string" value="whiskermenu"/>
   </property>
-  <property name="configver" type="int" value="2"/>
 </channel>
