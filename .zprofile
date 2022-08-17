@@ -1,9 +1,9 @@
 #!/bin/zsh
 
 # Default programs
-export EDITOR="micro"
-# export BROWSER="brave"
-export BROWSER="/mnt/c/Program\ Files/BraveSoftware/Brave-Browser/Application/brave.exe"
+export EDITOR="code"
+export BROWSER="brave"
+export TERMINAL="xfce4-terminal"
 
 # XDG Base Directory
 export XDG_CACHE_HOME="$HOME/.cache"
@@ -12,16 +12,22 @@ export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_RUNTIME_DIR="/run/user/$UID"
 
+# XDG_RUNTIME_DIR
+export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+
 # XDG_CACHE_HOME
 export HISTFILE="$XDG_CACHE_HOME/zsh_history"
 export LESSHISTFILE="-"
 export NODE_REPL_HISTORY="$XDG_CACHE_HOME/node_repl_history"
+export ICEAUTHORITY="$XDG_CACHE_HOME/ICEauthority"
 
 # XDG_CONFIG_HOME
+export XINITRC="$XDG_CONFIG_HOME/x11/xinitrc"
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/.npmrc"
 export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"
-# export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonstartup.py"
+export _JAVA_OPTIONS="-Djava.util.prefs.userRoot=$XDG_CONFIG_HOME/java"
 
 # XDG_DATA_HOME
 export ADOTDIR="$XDG_DATA_HOME/antigen"
@@ -33,21 +39,8 @@ export PNPM_HOME="$XDG_DATA_HOME/pnpm"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 
 # PATH
-export PATH="$PNPM_HOME:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
+export PATH="$PATH:$PNPM_HOME"
+export PATH="$PATH:$HOME/.local/bin"
 
-# Antigen
-source /usr/share/zsh/share/antigen.zsh
-  antigen use oh-my-zsh
-  antigen bundle git
-  antigen bundle command-not-found
-  antigen bundle common-aliases
-  antigen bundle zsh-users/zsh-syntax-highlighting
-  antigen bundle zsh-users/zsh-autosuggestions
-antigen apply
-
-# Aliases
-source $XDG_CONFIG_HOME/aliasrc
-
-# Theme
-eval "$(starship init zsh)"
+# Start X11
+[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC"
