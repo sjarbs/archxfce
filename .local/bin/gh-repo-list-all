@@ -1,0 +1,8 @@
+#!/usr/bin/sh
+
+gh repo list sobrinojulian --json url --jq '"git clone " + (.[] | .url)'
+gh repo list somosliana --json url --jq '"git clone " + (.[] | .url)'
+gh repo list SJARBS --json url --jq '"git clone " + (.[] | .url)'
+gh repo list BA7B7CFE --json url --jq '"git clone " + (.[] | .url)'
+gh repo list indecisovampiro --json url --jq '"git clone " + (.[] | .url)'
+gh repo list thebigdinocom --json url --jq '"git clone " + (.[] | .url)'

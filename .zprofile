@@ -27,7 +27,7 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/.npmrc"
 export WGETRC="$XDG_CONFIG_HOME/wget/wgetrc"
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 export PYTHONSTARTUP="$XDG_CONFIG_HOME/pythonstartup.py"
-export _JAVA_OPTIONS="-Djava.util.prefs.userRoot=$XDG_CONFIG_HOME/java"
+#export _JAVA_OPTIONS="-Djava.util.prefs.userRoot=$XDG_CONFIG_HOME/java"
 
 # XDG_DATA_HOME
 export ADOTDIR="$XDG_DATA_HOME/antigen"
@@ -41,6 +41,7 @@ export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 # PATH
 export PATH="$PATH:$PNPM_HOME"
 export PATH="$PATH:$HOME/.local/bin"
+#export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}" # ~/.local/bin/**
 
 # Start X11
-[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx "$XINITRC"
+[ "$(tty)" = "/dev/tty1" ] && ! pidof -s Xorg >/dev/null 2>&1 && exec startx $XINITRC &> /dev/null

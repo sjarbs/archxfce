@@ -12,7 +12,7 @@ def playsound():
     # for relative file
     # path_to_dir = path.dirname(path.abspath( __file__ ))
     path_to_dir = "~/.local/share/"
-    sound = "alarm.mp3"
+    sound = "beepbeep.mp3"
     dir = f'{path_to_dir}/{sound}'
     
     system(f'{player} {flags} {dir}')

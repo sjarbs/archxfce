@@ -1,12 +1,15 @@
 #!/bin/zsh
 
-# Dotfiles/OS
-alias add="yay --sync --needed --nodiffmenu --nocleanmenu --noconfirm"
-alias remove="yay -Rsu"
-alias update="yay -Syu --nodiffmenu --nocleanmenu --noconfirm && antigen update"
-#alias update="yay -Syu --nodiffmenu --nocleanmenu --noconfirm && antigen update && pipx upgrade-all && gem update shopify-cli"
-alias yay-ls='comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base -g base-devel | sort | uniq) | less'
-alias clean="echo 'find node_modules,etc and delete recursively'"
+# Package Manager
+alias install="yay -S --needed --nodiffmenu --nocleanmenu --noconfirm"
+alias uninstall="yay -Rsu"
+alias upgrade="yay -Syu --nodiffmenu --nocleanmenu --noconfirm && antigen update" # pipx upgrade-all && gem update shopify-cli"
+alias list='comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base-devel | sort | uniq)'
+
+# System
+alias reflector='sudo reflector @/etc/xdg/reflector/reflector.conf'
+alias hosts="echo 'TODO: /ect/hosts <- https://github.com/StevenBlack/hosts'"
+
 alias xclip='xclip -sel clip'
 alias weight="du -hs"
 
@@ -17,6 +20,7 @@ alias gi="gh issue list"
 alias gr="git remote -v"
 alias gs="git status"
 alias gl="git log"
+alias gc="git clone"
 
 # Verbosity and better default settings.
 alias \
@@ -49,17 +53,24 @@ alias \
   c19='sudo cpupower frequency-set --max 1900MHz' \
 
 
-# Instaloader
-alias stories='instaloader --login julito.xyz --no-posts --no-profile-pic --no-metadata-json --stories'
-
-# Dev
-alias npm='pnpm'
+# node js
 alias n='pnpm'
+alias npm='pnpm'
+alias pnpx='pnpm dlx'
+alias npx='pnpm dlx'
 alias touch-package-json='echo "{ \"private\": true }" > package.json'
-alias node-cli-boilerplate='curl -fsSL https://github.com/sobrinojulian/node-cli-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1'
 alias server='python -m http.server 8000'
+# alias node-cli-boilerplate='curl -fsSL https://github.com/sobrinojulian/node-cli-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1'
 
 # npm i *
 alias ole='ole | less'
-alias boca='aquehorajuegaboca | less'
-alias xtw='xcolor-tailwind'
+alias m='mortem 1992/07/07'
+alias boca='aquehorajuegaboca | head -n 8'
+# alias xtw='xcolor-tailwind'
+
+# pass
+alias email='echo "sobrinojulian@protonmail.com" | xclip'
+alias pass='pass -c'
+
+# instaloader
+alias stories='instaloader --login julito.xyz --no-posts --no-profile-pic --no-metadata-json --stories'

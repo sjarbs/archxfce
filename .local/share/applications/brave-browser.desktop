@@ -108,7 +108,7 @@ Comment[zh_TW]=連線到網際網路
 StartupNotify=true
 StartupWMClass=brave-browser
 TryExec=brave
-Exec=brave --use-gl=egl --ozone-platform-hint=auto --enable-features=VaapiVideoDecoder --disable-features=UseChromeOSDirectVideoDecoder %U
+Exec=brave --use-gl=desktop --enable-features=VaapiVideoDecoder --disable-features=UseChromeOSDirectVideoDecoder %U
 Terminal=false
 Icon=brave-desktop
 Type=Application
