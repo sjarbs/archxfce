@@ -20,7 +20,7 @@ alias gi="gh issue list"
 alias gr="git remote -v"
 alias gs="git status"
 alias gl="git log"
-alias gc="git clone"
+alias gc="git clone --depth=1"
 
 # Verbosity and better default settings.
 alias \
@@ -74,3 +74,8 @@ alias pass='pass -c'
 
 # instaloader
 alias stories='instaloader --login julito.xyz --no-posts --no-profile-pic --no-metadata-json --stories'
+
+# shorcuts
+alias dotfiles='cd ~/.dotfiles'
+alias desktop='cd ~/var/Desktop'
+alias aliases='micro ~/.config/zsh/aliasrc'

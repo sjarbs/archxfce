@@ -1,0 +1,17 @@
+# if the directory xfce-perchannel-xml is stowed, then xfce can write
+# any file without overwriting a link to the modified *.xml file
+.config/xfce4/xfconf/xfce-perchannel-xml/displays.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/pointers.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-mime-settings.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-screensaver.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-editor.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml
+.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-taskmanager.xml

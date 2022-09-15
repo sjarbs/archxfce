@@ -1,0 +1,6 @@
+Command=genmon-mortem
+UseLabel=0
+Text=Mortem
+UpdatePeriod=86400000
+Font=Sans 8
+

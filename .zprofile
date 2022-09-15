@@ -13,7 +13,7 @@ export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_RUNTIME_DIR="/run/user/$UID"
 
 # XDG_RUNTIME_DIR
-export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority" # (breaks C875)
 
 # XDG_CACHE_HOME
 export HISTFILE="$XDG_CACHE_HOME/zsh_history"
