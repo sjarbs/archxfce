@@ -1,0 +1,81 @@
+#!/bin/zsh
+
+# Package Manager
+alias install="yay -S --needed --nodiffmenu --nocleanmenu --noconfirm"
+alias uninstall="yay -Rsu"
+alias upgrade="yay -Syu --nodiffmenu --nocleanmenu --noconfirm && antigen update" # pipx upgrade-all && gem update shopify-cli"
+alias list='comm -23 <(pacman -Qqett | sort) <(pacman -Qqg base-devel | sort | uniq)'
+
+# System
+alias reflector='sudo reflector @/etc/xdg/reflector/reflector.conf'
+alias hosts="echo 'TODO: /ect/hosts <- https://github.com/StevenBlack/hosts'"
+
+alias xclip='xclip -sel clip'
+alias weight="du -hs"
+
+# Git/Github
+alias onefetch="onefetch --no-palette --show-logo never"
+alias of="onefetch"
+alias gi="gh issue list"
+alias gr="git remote -v"
+alias gs="git status"
+alias gl="git log"
+alias gc="git clone --depth=1"
+
+# Verbosity and better default settings.
+alias \
+  ls='lsd --almost-all --group-dirs=first' \
+  cp="cp -iv" \
+  mv="mv -iv" \
+  md="mkdir -pv"
+  df='df -h' \
+  free='free -m' \
+
+# Colorize commands when possible.
+alias \
+  grep="grep --color=auto" \
+  diff="diff --color=auto" \
+
+# Redshift
+alias \
+  r6='redshift -PO 6500' \
+  r5='redshift -PO 5500' \
+  r4='redshift -PO 4500' \
+  r3='redshift -PO 3500' \
+  r2='redshift -PO 2500' \
+  r1='redshift -PO 1500' \
+
+# cpufreq
+alias \
+  c08='sudo cpupower frequency-set --max  800MHz' \
+  c13='sudo cpupower frequency-set --max 1300MHz' \
+  c16='sudo cpupower frequency-set --max 1600MHz' \
+  c19='sudo cpupower frequency-set --max 1900MHz' \
+
+
+# node js
+alias n='pnpm'
+alias npm='pnpm'
+alias pnpx='pnpm dlx'
+alias npx='pnpm dlx'
+alias touch-package-json='echo "{ \"private\": true }" > package.json'
+alias server='python -m http.server 8000'
+# alias node-cli-boilerplate='curl -fsSL https://github.com/sobrinojulian/node-cli-boilerplate/archive/main.tar.gz | tar -xz --strip-components=1'
+
+# npm i *
+alias ole='ole | less'
+alias m='mortem 1992/07/07'
+alias boca='aquehorajuegaboca | head -n 8'
+# alias xtw='xcolor-tailwind'
+
+# pass
+alias email='echo "sobrinojulian@protonmail.com" | xclip'
+alias pass='pass -c'
+
+# instaloader
+alias stories='instaloader --login julito.xyz --no-posts --no-profile-pic --no-metadata-json --stories'
+
+# shorcuts
+alias dotfiles='cd ~/.dotfiles'
+alias desktop='cd ~/var/Desktop'
+alias aliases='micro ~/.config/zsh/aliasrc'

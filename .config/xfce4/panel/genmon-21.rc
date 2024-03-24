@@ -1,0 +1,6 @@
+Command=genmon-cpu-temp
+UseLabel=0
+Text=CPU
+UpdatePeriod=2000
+Font=Sans 8
+
